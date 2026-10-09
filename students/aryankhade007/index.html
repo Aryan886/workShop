@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A first-year student's portfolio of skills, projects, and learning.">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Load the student's data before the code that displays it. -->
+  <script src="profile.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <a class="logo" href="#main">My portfolio<span>.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button id="theme-button" type="button" aria-pressed="false" hidden>Dark mode</button>
+  </header>
+
+  <main id="main">
+    <noscript>Please enable JavaScript to display the details from profile.js.</noscript>
+
+    <section class="hero" aria-labelledby="name">
+      <p class="eyebrow">Hello, I'm</p>
+      <h1 id="name">Your Name</h1>
+      <p id="role" class="role">First-year student</p>
+      <p id="tagline">Learning, building, and sharing what I discover.</p>
+      <a class="button" href="#projects">See my projects</a>
+    </section>
+
+    <section id="about" class="section" aria-labelledby="about-heading">
+      <h2 id="about-heading">A little about me</h2>
+      <p id="about-text">I'm starting my journey in technology.</p>
+      <h3>What I'm learning</h3>
+      <ul id="skills" class="skills" aria-label="Skills"></ul>
+    </section>
+
+    <section id="projects" class="section" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Things I've built</h2>
+      <p id="projects-empty">My first project is on the way. Watch this space!</p>
+      <div id="project-list" class="project-list"></div>
+    </section>
+
+    <section id="contact" class="section" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Let's connect</h2>
+      <p>I'm happy to learn together and work on small projects.</p>
+      <div id="contact-links" class="contact-links"></div>
+      <p id="contact-empty" class="muted">My contact links are coming soon.</p>
+    </section>
+  </main>
+
+  <footer>Made with HTML, CSS, and a little JavaScript.</footer>
+</body>
+</html>
