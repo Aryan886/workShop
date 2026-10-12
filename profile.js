@@ -1,17 +1,17 @@
 // VERSION 1: Change the text inside quotes. Keep the commas and brackets.
 const profile = {
-  name: "Your Name",
-  role: "First-year Computer Engineering Student",
+  name: "Arnav Homkar",
+  role: "First-year Computer Engineering(AI and ML) Student",
   tagline: "Building small things. Learning something new every day.",
   about: "Hi! I'm a first-year student exploring programming and web development. I enjoy solving problems, learning with friends, and turning ideas into small projects.",
-  skills: ["HTML", "CSS", "JavaScript", "Git"],
+  skills: ["HTML", "CSS", "JavaScript", "Git", "Python", "FastAPI", "React.js",  ],
 
   // VERSION 2: Add your own projects. Use [] if you do not have any yet.
   projects: [
     {
       name: "My first portfolio",
       description: "A website about me, built while learning Git and GitHub.",
-      tech: ["HTML", "CSS", "JavaScript"],
+      tech: ["HTML", "CSS", "JavaScript,"],
       link: ""
     },
     {
@@ -23,7 +23,7 @@ const profile = {
   ],
 
   // Paste your full https:// links. Empty quotes keep a link hidden.
-  github: "",
-  linkedin: "",
-  email: ""
+  github: "https://github.com/Nightking0904",
+  linkedin: "https://www.linkedin.com/in/arnavhomkar",
+  email: "arnavhomkar8@gmail.com"
 };
