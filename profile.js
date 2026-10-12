@@ -1,9 +1,9 @@
 // VERSION 1: Change the text inside quotes. Keep the commas and brackets.
 const profile = {
-  name: "Your Name",
-  role: "First-year Computer Engineering Student",
+  name: "Qaiser Shakeel Ahmad",
+  role: "Direct second-year Computer Engineering Student",
   tagline: "Building small things. Learning something new every day.",
-  about: "Hi! I'm a first-year student exploring programming and web development. I enjoy solving problems, learning with friends, and turning ideas into small projects.",
+  about: "Hi! I'm a second-year student exploring programming and web development. I enjoy solving problems, learning with friends, and turning ideas into small projects.",
   skills: ["HTML", "CSS", "JavaScript", "Git"],
 
   // VERSION 2: Add your own projects. Use [] if you do not have any yet.
